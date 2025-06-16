@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/godwin-ofwono/Desktop/Ishop_Sourcing/TheeApp/src/ECommerceMessaging.Application/ECommerceMessaging.Application.csproj": {}
+  },
+  "projects": {
+    "/home/godwin-ofwono/Desktop/Ishop_Sourcing/TheeApp/src/ECommerceMessaging.Application/ECommerceMessaging.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/godwin-ofwono/Desktop/Ishop_Sourcing/TheeApp/src/ECommerceMessaging.Application/ECommerceMessaging.Application.csproj",
+        "projectName": "ECommerceMessaging.Application",
+        "projectPath": "/home/godwin-ofwono/Desktop/Ishop_Sourcing/TheeApp/src/ECommerceMessaging.Application/ECommerceMessaging.Application.csproj",
+        "packagesPath": "/home/godwin-ofwono/.nuget/packages/",
+        "outputPath": "/home/godwin-ofwono/Desktop/Ishop_Sourcing/TheeApp/src/ECommerceMessaging.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/godwin-ofwono/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/godwin-ofwono/Desktop/Ishop_Sourcing/TheeApp/src/ECommerceMessaging.Domain/ECommerceMessaging.Domain.csproj": {
+                "projectPath": "/home/godwin-ofwono/Desktop/Ishop_Sourcing/TheeApp/src/ECommerceMessaging.Domain/ECommerceMessaging.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.5.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/godwin-ofwono/Desktop/Ishop_Sourcing/TheeApp/src/ECommerceMessaging.Domain/ECommerceMessaging.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/godwin-ofwono/Desktop/Ishop_Sourcing/TheeApp/src/ECommerceMessaging.Domain/ECommerceMessaging.Domain.csproj",
+        "projectName": "ECommerceMessaging.Domain",
+        "projectPath": "/home/godwin-ofwono/Desktop/Ishop_Sourcing/TheeApp/src/ECommerceMessaging.Domain/ECommerceMessaging.Domain.csproj",
+        "packagesPath": "/home/godwin-ofwono/.nuget/packages/",
+        "outputPath": "/home/godwin-ofwono/Desktop/Ishop_Sourcing/TheeApp/src/ECommerceMessaging.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/godwin-ofwono/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "1RWTEtXlRX0=",
+  "success": true,
+  "projectFilePath": "/home/godwin-ofwono/Desktop/Ishop_Sourcing/TheeApp/src/ECommerceMessaging.Application/ECommerceMessaging.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/godwin-ofwono/.nuget/packages/fluentvalidation/12.0.0/fluentvalidation.12.0.0.nupkg.sha512",
+    "/home/godwin-ofwono/.nuget/packages/mediatr/12.5.0/mediatr.12.5.0.nupkg.sha512",
+    "/home/godwin-ofwono/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/godwin-ofwono/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.6/microsoft.extensions.dependencyinjection.abstractions.9.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
